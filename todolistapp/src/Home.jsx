@@ -34,7 +34,7 @@ function Home() {
   }
   return (
     <div className="home">
-      <h2>To-Do List</h2>
+      <h2>TaskTracer</h2>
       <Create />
       {
         todos.length === 0 ?
